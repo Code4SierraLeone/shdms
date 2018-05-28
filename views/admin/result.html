@@ -1,0 +1,10 @@
+{{extend "layout.html"}}
+{{=H2("%s:" % T("Sahana Eden Test Results Compilation"))}}
+{{try:}}{{overview=overview}}{{except:}}{{overview=False}}{{pass}}
+{{if overview:}}
+{{=links}}
+{{else:}}
+{{=H5("%s:" % title)}}
+{{=links}}
+{{=P(A("<<< %s" % T("Back to test results overview"), _href=URL(args=[], vars={}), _class="action-lnk"), _style="margin-top:3rem;")}}
+{{pass}}
