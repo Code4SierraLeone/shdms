@@ -452,8 +452,9 @@ div.tabs span.tab_other a:hover {
 
 .delete-btn-ajax,
 .delete-btn {
-  background-color: #c60f13;
-  color: #ffffff !important;
+  background-color: transparent;
+  color: #c60f13 !important;
+  border: 1px solid #c60f13;
 }
 
 .delete-btn-ajax:hover,
