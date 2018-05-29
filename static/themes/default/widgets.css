@@ -724,9 +724,9 @@ body.popup {
 
 .alert-success {
     color: #070;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    border: #070 1px solid;
+    border: none;
     background: url(../../img/dialog-confirmation.png) #e5ffe5 no-repeat 5px 5px;
     margin-top: 0.0em;
     margin-bottom: 0.5em;
@@ -744,9 +744,9 @@ body.popup {
 
 .alert-error {
     color: #c00;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    border: #c00 1px solid;
+    border:none;
     background: url(../../img/dialog-error.png) #ffe5e5 no-repeat 5px 5px;
     margin-top: 0.0em;
     margin-bottom: 0.5em;

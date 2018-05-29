@@ -20,8 +20,7 @@
 .alert.alert-info,
 .alert.alert-warning,
 .alert.alert-success {
-  border: 1px solid #b2b2b2;
-  box-shadow: 0 1px 1px #aaaaa7;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
