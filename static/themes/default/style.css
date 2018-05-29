@@ -600,7 +600,7 @@ div.tabs span.tab_other a:hover {
 }
 
 .sidebar {
-  background: none repeat scroll 0 0 #d7d8d9;
+  background: none repeat scroll 0 0 #faf7ff;
   margin-top: 10px;
 }
 
@@ -619,25 +619,25 @@ div.tabs span.tab_other a:hover {
 .side-nav li > a:not(.button) {
   padding: 3px;
   color: #666666;
-  background-color: #d7d8d9;
+  background-color: #faf7ff;
   font-weight: 200;
 }
 
 .side-nav li:hover > a:not(.button) {
   color: #ffffff;
-  background-color: #2ba6cb;
+  background-color: #ad97ef;
 }
 
 .side-nav li.heading {
   text-transform: uppercase;
   font-weight: bold;
-  border-top: 1px solid #c0c1c2;
+  border-top: 2px solid #ffffff;
 }
 
 .side-nav li.heading > a:not(button) {
   padding: 6px 3px 3px 6px;
   color: #000000;
-  background-color: #d7d8d9;
+  background-color: #faf7ff;
   font-weight: 280;
 }
 
