@@ -357,7 +357,7 @@ div.tabs span a:hover {
 
 div.tabs span.tab_here {
   background: #ffffff;
-  border-color: #2ba6cb;
+  border-color: #ad97ef;
   border-style: solid;
   border-width: 2px 2px 0 3px;
   border-bottom-width: 1px;
@@ -365,7 +365,7 @@ div.tabs span.tab_here {
   border-bottom-color: #ffffff;
   bottom: 0;
   display: inline;
-  font-weight: bold;
+  font-weight: 300;
   margin-right: 5px;
   padding: 0.2em 6px 0.25em 5px;
   position: relative;
@@ -386,8 +386,8 @@ div.tabs span.tab_here a:hover {
 div.tabs span.tab_last,
 div.tabs span.tab_other {
   font-size: 90%;
-  background: #2ba6cb;
-  border-color: #2ba6cb;
+  background: transparent;
+  border-color: #ad97ef;
   border-width: 1px 1px 0 2px;
   border-style: solid;
   margin-right: 3px;
@@ -402,7 +402,7 @@ div.tabs span.tab_other:hover {
 
 div.tabs span.tab_last a,
 div.tabs span.tab_other a {
-  color: #ffffff !important;
+  color: #ad97ef !important;
 }
 
 div.tabs span.tab_last a:hover,
