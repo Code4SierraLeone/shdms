@@ -56,6 +56,11 @@ git clone https://github.com/Code4SierraLeone/shdms.git
 #### For Ongoing Development
 If you intend to develop for Salone HDMS and have your code pulled into Trunk you need to follow the instructions Fork Your Own Salone HDMS Repository to be able to pull new updates and push changes.
 
+Mac Users Note
+To avoid an issue that you may encounter with ongoing coding which is explained in this  [stackoverflow.com thread](https://stackoverflow.com/questions/17829537/git-says-that-some-of-my-image-files-are-untracked-they-are-not), before running the command to clone the repo, make sure to run:
+
+`git config --global core.precomposeunicode true`
+
 To test your installation of Salone HDMS, without Eclipse, you can start web2py from the command line:
 
 ```
