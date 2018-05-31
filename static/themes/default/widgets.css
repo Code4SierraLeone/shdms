@@ -764,9 +764,9 @@ body.popup {
 
 .alert-info {
     color: #748d8e;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    border: #9ed8d7 1px solid;
+    border:none;
     background: url(../../img/dialog-information.png) #ecfdff no-repeat 5px 5px;
     margin-top: 0.0em;
     margin-bottom: 0.5em;
@@ -784,9 +784,9 @@ body.popup {
 
 .alert-warning {
     color: #c00;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    border: #fc6 1px solid;
+    border: none;
     background: url(../../img/dialog-warning.png) #ffc no-repeat 5px 5px;
     margin-top: 0.0em;
     margin-bottom: 0.5em;
