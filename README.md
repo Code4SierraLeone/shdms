@@ -21,7 +21,6 @@ pip install xlwt
 pip install pyserial
 pip install tweepy
 pip install Pillow
-
 ```
 For some GIS features of Salone HDMS (e.g. if you would rather use PostgreSQL with PostGIS instead of MySQL) you are required to install the  GDAL framework.  GEOS is also required, and is a dependency of shapely.
 
@@ -31,7 +30,7 @@ If you want to use PostgreSQL - PostGIS (for which you will need GDAL, above):
 ```
 git clone https://github.com/web2py/web2py.git --recursive
 ```
-Salone HDMS now supports both web2py-2.14.6 (#cda35fd) and web2py-2.16.1 (#7035398) stable releases, so you can either:
+Salone HDMS now supports both `web2py-2.14.6 (#cda35fd`) and `web2py-2.16.1 (#7035398)` stable releases, so you can either:
 
 ```
 cd web2py
@@ -79,4 +78,7 @@ Once you have web2py running navigate to the server (  http://localhost:8000 by 
 
 By default the 1st user to register will gain the Administrator role.
 
+### Heroku
+
+...
 
