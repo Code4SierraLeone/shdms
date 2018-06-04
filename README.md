@@ -22,7 +22,7 @@ pip install pyserial
 pip install tweepy
 pip install Pillow
 ```
-For some GIS features of Salone HDMS (e.g. if you would rather use PostgreSQL with PostGIS instead of MySQL) you are required to install the  GDAL framework.  GEOS is also required, and is a dependency of shapely.
+For some GIS features of Salone HDMS (e.g. if you would rather use PostgreSQL with PostGIS instead of MySQL) you are required to install the  [GDAL framework](http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries).  [GEOS](http://trac.osgeo.org/geos/) is also required, and is a dependency of shapely.
 
 If you want to use PostgreSQL - PostGIS (for which you will need GDAL, above):
 
