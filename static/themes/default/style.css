@@ -493,7 +493,7 @@ div.tabs span.tab_other a:hover {
   border-top: 1px solid #EEEEEE;
   background: #28384d;
   bottom: 0;
-  position: relative;
+  position: fixed;
 }
 
 #footer button.btn {
